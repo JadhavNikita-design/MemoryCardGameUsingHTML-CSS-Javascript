@@ -14,13 +14,11 @@ body{
 }
 
 .game-info {
-    /* height: 10px; */
     width: 400px; 
     background-color: red;
     position: relative;
     bottom: 250px;
     left:400px;
-    /* margin-bottom: 20px; */
     font-size: 1.2rem;
     display: inline;
     background: #e6e6e6;
@@ -30,8 +28,6 @@ body{
 .game-info div{
     padding: 5px 0 5px 5px;
 }
-
-
 
 .wrapper{
     height: 400px;
@@ -84,8 +80,6 @@ body{
         transform: translateX(8px);
     }
 }
-
-
 
 .front-view span{
     color: #00c6ff;

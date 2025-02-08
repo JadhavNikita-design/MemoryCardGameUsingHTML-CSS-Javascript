@@ -13,6 +13,27 @@ body{
     background: #424245;
 }
 
+h1{
+    color: #00c6ff;
+    position: relative;
+    left: 480px;  
+    bottom: 260px;
+    display: block; 
+    text-align: center; 
+    animation: colorChange 3s infinite alternate;
+}
+
+@keyframes colorChange {
+
+    0% {
+        color: #00c6ff;
+    }
+   
+    100% {
+        color: #fff;
+    }
+ }
+
 .game-info {
     width: 400px; 
     background-color: red;
